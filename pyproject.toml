@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repl-nix-stewartsmartfella"
+version = "0.1.0"
+description = ""
+authors = ["Miguel <mygel.pinto@gmail.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_stewartsmartfella"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+discord = "^2.3.2"
+google-api-python-client = "^2.103.0"
+flask = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
