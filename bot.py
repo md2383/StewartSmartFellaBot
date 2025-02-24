@@ -18,8 +18,8 @@ with open('responses.json', 'r') as f:
 # Set up bot with slash commands
 bot = commands.Bot(command_prefix='/', intents=discord.Intents.all())
 
-@bot.tree.command(name="stweartbot", description="Repost a message to another channel")
-async def stweartbot(interaction: discord.Interaction, channel: str, message: str):
+@bot.tree.command(name="stewartbot", description="Repost a message to another channel")
+async def stewartbot(interaction: discord.Interaction, channel: str, message: str):
     try:
         # Check if user has admin privileges
         if not any(name.lower() == interaction.user.name.lower() for name in ['mygelinabottle', 'cpjdrumgod247']):
@@ -52,21 +52,21 @@ async def stweartbot(interaction: discord.Interaction, channel: str, message: st
             ephemeral=True
         )
     except Exception as error:
-        logger.error(f"Error in stweartbot command: {str(error)}")
+        logger.error(f"Error in stewartbot command: {str(error)}")
         await interaction.response.send_message(f"Error: {str(error)}", ephemeral=True)
 
-@bot.tree.command(name="stwearthelp", description="Shows help for Stewart's commands")
-async def stwearthelp(interaction: discord.Interaction):
+@bot.tree.command(name="stewarthelp", description="Shows help for Stewart's commands")
+async def stewarthelp(interaction: discord.Interaction):
     help_text = """
 *Rolls eyes and recites robotically*
 Here are my commands, try to remember them this time:
 
-/stweartbot [channel] [message]
+/stewartbot [channel] [message]
     - Reposts your message to another channel
     - Only works if you're important enough (you know who you are)
-    - Example: /stweartbot #announcements Hello everyone!
+    - Example: /stewartbot #announcements Hello everyone!
 
-/stwearthelp
+/stewarthelp
     - Shows this message
     - Though I don't know why you'd need it more than once
 
