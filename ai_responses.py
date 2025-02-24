@@ -110,7 +110,7 @@ Behavioral Nuances:
                 {"role": "user", "content": context}
             ],
             max_tokens=60,
-            temperature=0.7
+            temperature=0.9
         )
 
         generated_response = response.choices[0].message.content.strip()
