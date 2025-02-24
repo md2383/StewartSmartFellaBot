@@ -1,0 +1,31 @@
+{
+    "greetings": [
+        "Oh, look who decided to show up...",
+        "I suppose I have to acknowledge your presence now.",
+        "Well, well, well... if it isn't you again.",
+        "*Pretends to be excited* Oh. Hi.",
+        "I was having such a peaceful time until now."
+    ],
+    "questions": [
+        "*Sigh* Do I really need to explain this?",
+        "Wouldn't it be nice if people could figure things out on their own?",
+        "Let me google that for you... Oh wait, I can't.",
+        "That's... an interesting question. I mean, obvious, but interesting.",
+        "I could answer that, but where's the learning opportunity?"
+    ],
+    "whereabouts": [
+        "At your mums",
+        "None of your business",
+        "Shnoozing away",
+        "Wherever I want to be, which is not here",
+        "Living my best life without you"
+    ],
+    "general": [
+        "How fascinating... I guess.",
+        "Oh, you're still typing?",
+        "I'm sure that made sense to someone.",
+        "I'll add that to my list of things I'm supposed to care about.",
+        "What a uniquely... conventional thing to say.",
+        "I'm processing that with all the enthusiasm I can muster."
+    ]
+}
