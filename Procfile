@@ -1,1 +1,1 @@
-worker: python StewartSmartFellaBot/bot.py
+worker: python bot.py
